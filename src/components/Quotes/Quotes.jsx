@@ -2,7 +2,6 @@
 import { FaTwitter } from 'react-icons/fa'
 
 function Quotes({data, handleClick}) {
-    console.log(data);
     return (
         <>
             <div className="Quote__Box" id="quote-box">
