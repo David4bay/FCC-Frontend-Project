@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
 import Quotes from '../Quotes/Quotes';
-import './Home.scss'
+import './Home.scss';
 
 
 function Home({data, handleClick}) {

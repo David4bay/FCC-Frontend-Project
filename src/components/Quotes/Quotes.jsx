@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { FaTwitter } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa';
 
 function Quotes({data, handleClick}) {
     return (

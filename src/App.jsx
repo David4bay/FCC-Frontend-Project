@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-undef */
-import { useState, useEffect } from 'react'
-import './App.css'
-import Home from './components/Home/Home'
+import { useState, useEffect } from 'react';
+import './App.css';
+import Home from './components/Home/Home';
 
 function App() {
   const [loadQuote, setLoadQuote] = useState(true);
@@ -22,7 +22,6 @@ return () => setLoadQuote(false);
 
 const handleClick = () => {
   setLoadQuote(true);
-  setData(data);
 }
 
   return (
