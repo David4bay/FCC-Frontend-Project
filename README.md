@@ -4,4 +4,4 @@ This is my solution to freeCodeCamps Frontend Certificate Project. The Quote Mac
 
 ## Screenshot
 
-![Screenshot](./screenshot/screenshot.png)
+![Screenshot](./screenshot/screenshot.PNG)
