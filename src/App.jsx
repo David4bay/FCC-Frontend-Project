@@ -14,11 +14,11 @@ if (loadQuote) {
   .catch(error => console.error(error))
 
 }
-return () => setLoadQuote(false);
+return () => setLoadQuote(!loadQuote);
 }, [loadQuote])
 
 const handleClick = () => {
-  setLoadQuote(true);
+  setLoadQuote(!loadQuote);
 }
 
   return (
