@@ -12,13 +12,12 @@ if (loadQuote) {
   fetch('https://type.fit/api/quotes')
   .then(res => res.json()).then(dataInfo => setData(dataInfo[random]))
   .catch(error => console.error(error))
-
 }
-return () => setLoadQuote(!loadQuote);
+setLoadQuote(false);
 }, [loadQuote])
 
 const handleClick = () => {
-  setLoadQuote(!loadQuote);
+  setLoadQuote(true);
 }
 
   return (
