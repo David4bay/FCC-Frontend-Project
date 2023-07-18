@@ -15,7 +15,7 @@ if (loadQuote) {
 
 }
 return () => setLoadQuote(false);
-}, [loadQuote])
+}, [])
 
 const handleClick = () => {
   setLoadQuote(true);
