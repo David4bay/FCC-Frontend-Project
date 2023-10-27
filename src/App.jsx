@@ -8,9 +8,11 @@ function App() {
   
   useEffect(() => {
 if (loadQuote) {
-  let random = Math.floor(Math.random() * 1643 + 1)
   fetch('https://type.fit/api/quotes')
-  .then(res => res.json()).then(dataInfo => setData(dataInfo[random]))
+  .then(res => res.json()).then(dataInfo => {
+    let random = Math.floor(Math.random() * 15 + 1)
+    return setData(dataInfo[random])
+  })
   .catch(error => console.error(error))
 }
 setLoadQuote(false);
